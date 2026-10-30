@@ -8,7 +8,7 @@ export default function App() {
   const [pulseActive, setPulseActive] = useState(false);
   const [promptAnswered, setPromptAnswered] = useState(false);
   const [userAnswer, setUserAnswer] = useState('');
-  const [partnerStatus] = useState("Working on thesis 📚");
+  const partnerStatus = "Working on thesis 📚";
 
   // Countdown calculations
   const reunionDate = new Date('2026-11-18T18:00:00');
